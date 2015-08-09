@@ -1,0 +1,43 @@
+html, body{
+  height:100%;
+  background: #fff;
+  font-family:sans-serif;
+}
+
+h1{
+  text-align:center;
+}
+
+body{
+  max-width:40em;
+  padding:2em;
+  margin:auto;
+  background:url(http://www.proselyte-graphics.com/Content/Worship-Backgrounds/Paper-Proselyte-Graphics.jpg) no-repeat;
+  background-size:cover;
+}
+header span{
+  float:left;
+  font-family: cursive;
+  font-weight:bold;
+  font-size:1.5em;
+  width:50%;
+}
+ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+ul li span{
+  border-bottom: 1px solid #000;
+  float:left;
+  width:48%;
+  margin:1em 0;
+  margin-right:2%;
+}
+
+ul li:after, .cf:after{
+  content:' ';
+  display:table;
+  clear:both;
+}
